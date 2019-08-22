@@ -56,3 +56,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Dummy API CALL FOR REfrences
+
+fetch('http://localhost/laravel_demo/public/index.php/api/user/signUp',
+      {method: "POST", // *GET, POST, PUT, DELETE, etc.      
+            headers: {            
+                "Content-Type": "application/json"
+            }, 
+            // mode: 'no-cors',       
+            body:{'data':{'name':'pravin'}}
+      })
+
+
